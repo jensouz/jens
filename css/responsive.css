@@ -1,0 +1,959 @@
+ @media screen and (max-width: 1024px) {
+.banner {
+	min-height: 450px;
+}
+#header .header-content {
+	width: 90%;
+}
+.nav-toggle {
+	display: block;
+}
+.navigation {
+	position: fixed;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+.navigation .primary-nav {
+	position: relative;
+	top: 45%;
+	-moz-transform: translateY(-45%);
+	-ms-transform: translateY(-45%);
+	-webkit-transform: translateY(-45%);
+	transform: translateY(-45%);
+}
+.navigation li {
+	display: block;
+	margin-bottom: 20px;
+}
+.navigation a {
+	display: block;
+	font-size: 25px;
+	margin: 0;
+	text-align: center;
+}
+.person {
+	margin: 0 auto 50px;
+}
+.person-content {
+	text-align: center;
+}
+.person .social-icons li {
+	display: inline-block;
+	float: none;
+	margin-bottom: 5px;
+}
+.testimonials blockquote {
+	padding: 20px 5% 0;
+}
+.testimonials p {
+	font-size: 26px;
+}
+.flex-control-nav {
+	bottom: 20px;
+}
+h2 {
+	position: relative;
+	font-size: 35px;
+	margin-top: -20px;
+	text-align: center;
+	color: #fff;
+}
+.logo img {
+	width: 120px;
+	height: 140px;
+	margin: -15px 0 0 0;
+	float: left;
+	position: absolute; 
+						/* logo */
+}
+img {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	margin-top: 0 auto;
+	opacity: 0.7;	
+}
+#header {
+	width: 100%;
+	height: 130px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	float: center;
+	text-transform: uppercase;  /* mudar tamanho da barra que desce */
+}
+.banner-text h1 {
+	position:relative;
+	color: #FD4A69; /* mude a cor dos textos h1 do banner aqui */
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 30px;
+	margin: 70px 80px 0px 10px;
+}
+.banner-text p {
+	position: relative;
+	color: #000; /* mude a cor do paragrafo do banner */
+	font-size: 20px;
+	margin-top: 13px;
+	margin-left: 25px;
+}
+/* =============================================================================
+	slide
+===============================================================================*/
+#slide {
+	position: relative;
+	margin: -200px 0 0 -90px;
+	width: 90%;
+	height: 290px;
+	z-index: 550;
+	border-radius: 1250px;
+}
+#passagem {
+	position: absolute;
+	width: 900px;
+	height: 290px;   /* tamanho da imagem slide */
+}
+/* =============================================================================
+	blocos
+===============================================================================*/
+.product_orderinfo a {
+	margin-top: 50px;
+	margin-left: 110px;
+    color: white;
+    background: #F1259D ;
+    display: inline-block;
+    padding: 35px 10px;
+    font-size: 22px;
+    width: 120px;
+    height: 100px;
+    border-radius: 550px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.work {
+	position: relative;
+	width: 138px;
+	height: 150px;
+	margin-left: 50px;
+	-moz-box-shadow: 0 0 0 1px #fff;
+	-webkit-box-shadow: 0 0 0 1px #fff;
+	box-shadow: 0 10px 0 10px #fff;
+	overflow: hidden;
+	float: left;
+	opacity: 1.0;
+}
+.work img {
+	width: 100%;
+	height: 100%;
+}
+/* =============================================================================
+ local
+ ==============================================================================*/
+ .photos {
+  	position: relative;
+  	margin-top: -50px;
+  	opacity: 1.0;
+}
+ .location {
+ 	position: relative;
+ 	margin-top: 40px;
+	margin-left: -8px;
+	width: 100%;
+	height: 250px;
+ }
+ #caixa {
+	text-align: center;
+	margin-top: -10px;
+	padding: 8px -15px;
+	color: #fff;
+	opacity: 1.0;
+ }
+ /* =============================================================================
+ rodapé
+ ==============================================================================*/
+ .footer {
+	width: 1%;
+	height: 50px;
+	margin-left: 1px;
+	padding-top: -2%;
+	padding-bottom: 7%;
+}
+.footer h4 {
+	font-size: 18px; 
+	color: #F60AAB;
+	margin: 10px 0 10px 440px;
+}
+.footer p {
+	font-size: 18px;
+	width: 250px;
+	height: 5px;
+	margin: 1px 0px 0px 390px;
+	text-align: left;
+	color: #000;
+}
+.footer .footer-share {
+	margin-left: 50px;
+	margin-top: -100px;	
+}
+.footer .footer-share a {
+	border: none;
+	font-size: 25px;
+	color: #000;
+	letter-spacing: 12px;	/* tamanho das imagens das redes sociais */
+}
+.footer .footer-share a:hover {
+	border: none;
+	font-size: 30px;
+	color: #FC0FBC;
+	letter-spacing: 10px;
+}
+.footer .controle {
+	width: 200px;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 400px;
+	margin-top: 50px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #000;
+}
+/*===========================================================================================================*/
+ @media screen and (max-width: 768px) {
+.banner-text {
+	padding-top: 20%;
+}
+.banner-text h1 {
+	font-size: 24px;
+}
+.banner-text p {
+	font-size: 15px;
+}
+.flexslider {
+	padding-bottom: 80px;
+}
+.flex-control-nav {
+	width: 100%;
+}
+.footer .footer-col {
+	margin-bottom: 50px;
+}
+h2 {
+	position: relative;
+	font-size: 35px;
+	margin-top: -20px;
+	text-align: center;
+	color: #fff;
+}
+.logo img {
+	width: 120px;
+	height: 140px;
+	margin: -15px 0 0 0;
+	float: left;
+	position: absolute; 
+						/* logo */
+}
+img {
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	margin-top: 0 auto;
+	opacity: 0.7;	
+}
+#header {
+	width: 100%;
+	height: 130px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	float: center;
+	text-transform: uppercase;  /* mudar tamanho da barra que desce */
+}
+.banner-text h1 {
+	position:relative;
+	color: #FD4A69; /* mude a cor dos textos h1 do banner aqui */
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 30px;
+	margin: 130px 80px 0px 10px;
+}
+.banner-text p {
+	position: relative;
+	color: #000; /* mude a cor do paragrafo do banner */
+	font-size: 20px;
+	margin-top: 13px;
+	margin-left: 25px;
+}
+/* =============================================================================
+	slide
+===============================================================================*/
+#slide {
+	position: relative;
+	margin: -250px 0 0 40px;
+	width: 90%;
+	height: 250px;
+	z-index: 550;
+	border-radius: 1250px;
+}
+#passagem {
+	position: absolute;
+	width: 650px;
+	height: 250px;   /* tamanho da imagem slide */
+}
+/* =============================================================================
+	blocos
+===============================================================================*/
+.product_orderinfo a {
+	margin-top: 50px;
+	margin-left: 55px;
+    color: white;
+    background: #F1259D ;
+    display: inline-block;
+    padding: 35px 10px;
+    font-size: 22px;
+    width: 120px;
+    height: 100px;
+    border-radius: 550px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.work {
+	position: relative;
+	width: 138px;
+	height: 150px;
+	margin-left: 11px;
+	-moz-box-shadow: 0 0 0 1px #fff;
+	-webkit-box-shadow: 0 0 0 1px #fff;
+	box-shadow: 0 10px 0 10px #fff;
+	overflow: hidden;
+	float: left;
+	opacity: 1.0;
+}
+.work img {
+	width: 100%;
+	height: 100%;
+}
+/* =============================================================================
+ local
+ ==============================================================================*/
+ .photos {
+  	position: relative;
+  	margin-top: -50px;
+  	opacity: 1.0;
+}
+ .location {
+ 	position: relative;
+ 	margin-top: 40px;
+	margin-left: 55px;
+	width: 150%;
+	height: 350px;
+ }
+ #caixa {
+	text-align: center;
+	margin-top: -10px;
+	padding: 8px -15px;
+	color: #fff;
+	opacity: 1.0;
+ }
+ /* =============================================================================
+ rodapé
+ ==============================================================================*/
+ .footer {
+	width: 1%;
+	height: 50px;
+	margin-left: 1px;
+	padding-top: -2%;
+	padding-bottom: 7%;
+}
+.footer h4 {
+	font-size: 18px; 
+	color: #F60AAB;
+	margin: 10px 0 10px 300px;
+}
+.footer p {
+	font-size: 18px;
+	width: 250px;
+	height: 5px;
+	margin: 1px 0px 0px 260px;
+	text-align: left;
+	color: #000;
+}
+.footer .footer-share {
+	margin-left: 50px;
+	margin-top: -100px;	
+}
+.footer .footer-share a {
+	border: none;
+	font-size: 25px;
+	color: #000;
+	letter-spacing: 12px;	/* tamanho das imagens das redes sociais */
+}
+.footer .footer-share a:hover {
+	border: none;
+	font-size: 30px;
+	color: #FC0FBC;
+	letter-spacing: 10px;
+}
+.footer .controle {
+	width: 200px;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 270px;
+	margin-top: 50px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #000;
+}
+}
+/*======================================================================================================================*/
+ @media screen and (max-width: 640px) {
+.banner-text {
+	padding-top: 35%;
+	text-align: center;
+}
+h2 {
+	position: relative;
+	font-size: 35px;
+	margin-top: -20px;
+	text-align: center;
+	color: #fff;
+}
+.logo img {
+	width: 110px;
+	height: 140px;
+	margin: -15px 0 0 0;
+	float: left;
+	position: absolute; 
+						/* logo */
+}
+img {
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	margin-top: 0 auto;
+	opacity: 0.7;	
+}
+#header {
+	width: 100%;
+	height: 130px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	float: center;
+	text-transform: uppercase;  /* mudar tamanho da barra que desce */
+}
+.banner-text h1 {
+	position:relative;
+	color: #FD4A69; /* mude a cor dos textos h1 do banner aqui */
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 30px;
+	margin: 80px 80px 0px 0px;
+}
+.banner-text p {
+	position: relative;
+	color: #000; /* mude a cor do paragrafo do banner */
+	font-size: 20px;
+	margin-top: 13px;
+	margin-left: 25px;
+}
+/* =============================================================================
+	slide
+===============================================================================*/
+#slide {
+	position: relative;
+	margin: -250px 0 0 30px;
+	width: 90%;
+	height: 250px;
+	z-index: 550;
+	border-radius: 1250px;
+}
+#passagem {
+	position: absolute;
+	width: 550px;
+	height: 250px;   /* tamanho da imagem slide */
+}
+/* =============================================================================
+	blocos
+===============================================================================*/
+.product_orderinfo a {
+	margin-top: 50px;
+	margin-left: 25px;
+    color: white;
+    background: #F1259D ;
+    display: inline-block;
+    padding: 35px 10px;
+    font-size: 22px;
+    width: 120px;
+    height: 100px;
+    border-radius: 550px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.work {
+	position: relative;
+	width: 138px;
+	height: 150px;
+	margin-left: 11px;
+	-moz-box-shadow: 0 0 0 1px #fff;
+	-webkit-box-shadow: 0 0 0 1px #fff;
+	box-shadow: 0 10px 0 10px #fff;
+	overflow: hidden;
+	float: left;
+	opacity: 1.0;
+}
+.work img {
+	width: 100%;
+	height: 100%;
+}
+/* =============================================================================
+ local
+ ==============================================================================*/
+ .photos {
+  	position: relative;
+  	margin-top: -40px;
+  	opacity: 1.0;
+}
+ .location {
+ 	position: relative;
+ 	margin-top: 10px;
+	margin-left: -40px;
+	width: 100%;
+	height: 350px;
+ }
+ #caixa {
+	text-align: center;
+	margin-top: 5px;
+	color: #fff;
+	opacity: 1.0;
+ }
+ /* =============================================================================
+ rodapé
+ ==============================================================================*/
+ .footer {
+	width: 1%;
+	height: 50px;
+	margin-left: 1px;
+	padding-top: -2%;
+	padding-bottom: 7%;
+}
+.footer h4 {
+	font-size: 18px; 
+	color: #F60AAB;
+	margin: -10px 0 10px 250px;
+}
+.footer p {
+	font-size: 18px;
+	width: 250px;
+	height: 5px;
+	margin: 10px 0px 0px 180px;
+	text-align: left;
+	color: #000;
+}
+.footer .footer-share {
+	margin-left: 10px;
+	margin-top: -100px;	
+}
+.footer .footer-share a {
+	border: none;
+	font-size: 25px;
+	color: #000;
+	letter-spacing: 1px;	/* tamanho das imagens das redes sociais */
+}
+.footer .footer-share a:hover {
+	border: none;
+	font-size: 30px;
+	color: #FC0FBC;
+	letter-spacing: 10px;
+}
+.footer .controle {
+	width: 200px;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 180px;
+	margin-top: 50px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #000;
+}
+/*=====================================================================================================================*/
+}
+ @media screen and (max-width: 480px) {
+.banner-text {
+	padding-top: 45%;
+	text-align: center;
+}
+.banner-text h1 {
+	font-size: 21px;
+}
+.banner-text p {
+	font-size: 13px;
+}
+.banner {
+	height: 30px!important;
+}
+h2 {
+	position: relative;
+	font-size: 35px;
+	margin-top: -20px;
+	text-align: center;
+	color: #fff;
+}
+.logo img {
+	width: 120px;
+	height: 140px;
+	margin: -15px 0 0 0;
+	float: left;
+	position: absolute; 
+						/* logo */
+}
+img {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	margin-top: 0 auto;
+	opacity: 0.7;	
+}
+#header {
+	width: 100%;
+	height: 130px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	float: center;
+	text-transform: uppercase;  /* mudar tamanho da barra que desce */
+}
+.banner-text h1 {
+	position:relative;
+	color: #FD4A69; /* mude a cor dos textos h1 do banner aqui */
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 30px;
+	margin: 80px 80px 0px 0px;
+}
+.banner-text p {
+	position: relative;
+	color: #000; /* mude a cor do paragrafo do banner */
+	font-size: 20px;
+	margin-top: 13px;
+	margin-left: 25px;
+}
+/* =============================================================================
+	slide
+===============================================================================*/
+#slide {
+	position: relative;
+	margin: -210px 0 0 0px;
+	width: 100%;
+	height: 250px;
+	z-index: 550;
+	border-radius: 1250px;
+}
+#passagem {
+	position: absolute;
+	width: 450px;
+	height: 250px;   /* tamanho da imagem slide */
+}
+/* =============================================================================
+	blocos
+===============================================================================*/
+.product_orderinfo a {
+	margin-top: 50px;
+	margin-left: 75px;
+    color: white;
+    background: #F1259D ;
+    display: inline-block;
+    padding: 35px 8px;
+    font-size: 22px;
+    width: 115px;
+    height: 100px;
+    border-radius: 550px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.work {
+	position: relative;
+	width: 138px;
+	height: 150px;
+	margin-left: 11px;
+	-moz-box-shadow: 0 0 0 1px #fff;
+	-webkit-box-shadow: 0 0 0 1px #fff;
+	box-shadow: 0 10px 0 10px #fff;
+	overflow: hidden;
+	float: left;
+	opacity: 1.0;
+}
+.work img {
+	width: 100%;
+	height: 100%;
+}
+/* =============================================================================
+ local
+ ==============================================================================*/
+ .photos {
+  	position: relative;
+  	margin-top: -40px;
+  	opacity: 1.0;
+}
+ .location {
+ 	position: relative;
+ 	margin-top: 10px;
+	margin-left: -55px;
+	width: 100%;
+	height: 350px;
+ }
+ #caixa {
+	text-align: center;
+	margin-top: 5px;
+	color: #fff;
+	opacity: 1.0;
+ }
+ /* =============================================================================
+ rodapé
+ ==============================================================================*/
+ .footer {
+	width: 1%;
+	height: 50px;
+	margin-left: 1px;
+	padding-top: -2%;
+	padding-bottom: 7%;
+}
+.footer h4 {
+	font-size: 18px; 
+	color: #F60AAB;
+	margin: -10px 0 10px 180px;
+}
+.footer p {
+	font-size: 18px;
+	width: 250px;
+	height: 5px;
+	margin: 10px 0px 0px 110px;
+	text-align: left;
+	color: #000;
+}
+.footer .footer-share {
+	margin-left: 10px;
+	margin-top: -100px;	
+}
+.footer .footer-share a {
+	border: none;
+	font-size: 25px;
+	color: #000;
+	letter-spacing: 1px;	/* tamanho das imagens das redes sociais */
+}
+.footer .footer-share a:hover {
+	border: none;
+	font-size: 30px;
+	color: #FC0FBC;
+	letter-spacing: 10px;
+}
+.footer .controle {
+	width: 200px;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 120px;
+	margin-top: 50px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #000;
+}
+/*===========================================================================================================*/
+}
+ @media screen and (max-width: 320px) {
+.banner {
+	height: 30px!important;
+}
+.banner-text {
+	padding-top: 55%;
+	text-align: center;
+}
+.banner-text h1 {
+	font-size: 21px;
+}
+.banner-text p {
+	font-size: 13px;
+}
+.testimonials blockquote {
+	padding: 20px 5% 0;
+}
+.testimonials p {
+	font-size: 26px;
+}
+h2 {
+	position: relative;
+	font-size: 35px;
+	margin-top: -20px;
+	text-align: center;
+	color: #fff;
+}
+.logo img {
+	width: 100px;
+	height: 140px;
+	margin: -15px 0 0 0;
+	float: left;
+	position: absolute; 
+						/* logo */
+}
+img {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	margin-top: 0 auto;
+	opacity: 0.7;	
+}
+#header {
+	width: 100%;
+	height: 130px;
+	letter-spacing: 3px;
+	font-weight: 300;
+	float: center;
+	text-transform: uppercase;  /* mudar tamanho da barra que desce */
+}
+.banner-text h1 {
+	position:relative;
+	color: #FD4A69; /* mude a cor dos textos h1 do banner aqui */
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 30px;
+	margin: 80px 80px 0px 0px;
+}
+.banner-text p {
+	position: relative;
+	color: #000; /* mude a cor do paragrafo do banner */
+	font-size: 20px;
+	margin-top: 13px;
+	margin-left: 25px;
+}
+/* =============================================================================
+	slide
+===============================================================================*/
+#slide {
+	position: relative;
+	margin: -210px 0 0 0px;
+	width: 100%;
+	height: 250px;
+	z-index: 550;
+	border-radius: 1250px;
+}
+#passagem {
+	position: absolute;
+	width: 450px;
+	height: 250px;   /* tamanho da imagem slide */
+}
+/* =============================================================================
+	blocos
+===============================================================================*/
+.product_orderinfo a {
+	margin-top: 50px;
+	margin-left: 20px;
+    color: white;
+    background: #F1259D ;
+    display: inline-block;
+    padding: 35px 10px;
+    font-size: 24px;
+    width: 120px;
+    height: 100px;
+    border-radius: 550px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.work {
+	position: relative;
+	width: 138px;
+	height: 150px;
+	margin-left: 11px;
+	-moz-box-shadow: 0 0 0 1px #fff;
+	-webkit-box-shadow: 0 0 0 1px #fff;
+	box-shadow: 0 10px 0 10px #fff;
+	overflow: hidden;
+	float: left;
+	opacity: 1.0;
+}
+.work img {
+	width: 100%;
+	height: 100%;
+}
+/* =============================================================================
+ local
+ ==============================================================================*/
+ .photos {
+  	position: relative;
+  	margin-top: -40px;
+  	opacity: 1.0;
+}
+ .location {
+ 	position: relative;
+ 	margin-top: 10px;
+	margin-left: -55px;
+	width: 100%;
+	height: 350px;
+ }
+ #caixa {
+	text-align: center;
+	margin-top: 5px;
+	color: #fff;
+	opacity: 1.0;
+ }
+ /* =============================================================================
+ rodapé
+ ==============================================================================*/
+ .footer {
+	width: 1%;
+	height: 50px;
+	margin-left: 1px;
+	padding-top: -2%;
+	padding-bottom: 7%;
+}
+.footer h4 {
+	font-size: 18px; 
+	color: #F60AAB;
+	margin: -10px 0 10px 100px;
+}
+.footer p {
+	font-size: 18px;
+	width: 250px;
+	height: 5px;
+	margin: 10px 0px 0px 40px;
+	text-align: left;
+	color: #000;
+}
+.footer .footer-share {
+	margin-left: 10px;
+	margin-top: -100px;	
+}
+.footer .footer-share a {
+	border: none;
+	font-size: 25px;
+	color: #000;
+	letter-spacing: 1px;	/* tamanho das imagens das redes sociais */
+}
+.footer .footer-share a:hover {
+	border: none;
+	font-size: 30px;
+	color: #FC0FBC;
+	letter-spacing: 10px;
+}
+.footer .controle {
+	width: 200px;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 50px;
+	margin-top: 50px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #000;
+}
+}
